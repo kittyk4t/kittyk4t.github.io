@@ -1,5 +1,6 @@
 html {
   font-size: $base-font-size;
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Farsan&family=Fredericka+the+Great&family=Henny+Penny&family=Merienda+One&family=Permanent+Marker&family=Philosopher&display=swap');
 }
 
 /**
@@ -30,6 +31,7 @@ h1,
 h2,
 h4 {
   text-align: center;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 
@@ -53,6 +55,10 @@ body {
   overflow-wrap: break-word;
 }
 
+body {
+  font-family: 'Farsan', cursive;
+  font-size: large;
+}
 
 
 /**
