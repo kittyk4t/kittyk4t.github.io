@@ -96,6 +96,8 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -251,6 +253,17 @@ pre {
 }
 
 
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
 
 /**
  * Clearfix
