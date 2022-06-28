@@ -1,6 +1,91 @@
 html {
   font-size: $base-font-size;
-  @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Farsan&family=Fredericka+the+Great&family=Henny+Penny&family=Merienda+One&family=Permanent+Marker&family=Philosopher&display=swap');
+  //@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Farsan&family=Fredericka+the+Great&family=Henny+Penny&family=Merienda+One&family=Permanent+Marker&family=Philosopher&display=swap');
+}
+
+
+/* bangers-regular - latin */
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/bangers-v20-latin-regular/bangers-v20-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/bangers-v20-latin-regular/bangers-v20-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* fredericka-the-great-regular - latin */
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('_sass/fonts/fredericka-the-great-v15-latin/fredericka-the-great-v15-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('_sass/fonts/fredericka-the-great-v15-latin/fredericka-the-great-v15-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* farsan-regular - latin */
+@font-face {
+  font-family: 'Farsan';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/farsan-v18-latin-regular/farsan-v18-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/farsan-v18-latin-regular/farsan-v18-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* philosopher-regular - latin */
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/philosopher-v19-latin-regular/philosopher-v19-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/philosopher-v19-latin-regular/philosopher-v19-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* merienda-one-regular - latin */
+@font-face {
+  font-family: 'Merienda One';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/merienda-one-v16-latin-regular/merienda-one-v16-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/merienda-one-v16-latin-regular/merienda-one-v16-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* permanent-marker-regular - latin */
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/permanent-marker-v16-latin-regular/permanent-marker-v16-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/permanent-marker-v16-latin-regular/permanent-marker-v16-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* henny-penny-regular - latin */
+@font-face {
+  font-family: 'Henny Penny';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/henny-penny-v17-latin-regular/henny-penny-v17-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/henny-penny-v17-latin-regular/henny-penny-v17-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /**
